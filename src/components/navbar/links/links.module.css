@@ -23,6 +23,7 @@
     .menuButton {
       display: block;
       cursor: pointer;
+      background-color: transparent;
     }
   
     .mobileLinks {

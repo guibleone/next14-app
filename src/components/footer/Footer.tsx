@@ -1,7 +1,14 @@
+import styles from "./footer.module.css";
 
-
-export default function Footer() {
+const Footer = () => {
   return (
-    <div>Footer</div>
-  )
-}
+    <div className={styles.container}>
+      <div className={styles.logo}>guidev</div>
+      <div className={styles.text}>
+        <a href="https://github.com/guibleone">Guilherme Leone © Todos os direitos reservados.</a>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;
